@@ -18,7 +18,7 @@ spec:
         app: flaskdemo
     spec:
       containers:
-      - image: raj80dockerid/test:6
+      - image: hbkw1772/goorm-project:6
         name: flaskdemo
         resources: {}
 status: {}
