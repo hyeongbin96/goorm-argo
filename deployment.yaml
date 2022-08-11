@@ -27,7 +27,7 @@ spec:
       volumes:
       - name: flask-db
         hostPath:
-          path: /home/hyeongbin/goorm-jenkins 
+          path: /var/lib/docker/volumes/test/_data 
           type: DirectoryOrCreate
 status: {}
 ---
