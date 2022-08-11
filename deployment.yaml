@@ -28,7 +28,7 @@ spec:
       - name: flask-db
         hostPath:
           path: /home/hyeongbin/goorm-jenkins
-          type: DirectoryOrCreate
+          type: Directory
 status: {}
 ---
 apiVersion: v1
