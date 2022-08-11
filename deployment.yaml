@@ -20,15 +20,15 @@ spec:
       containers:
       - image: hbkw1772/goorm-project:32
         name: flaskdemo
-         volumeMounts:
+        volumeMounts:
         - name: flask-db
           mountPath: /goorm-jenkins
+        resources: {}
       volumes:
       - name: flask-db
         hostPath:
           path: /home/hyeongbin/goorm-jenkins 
           type: Directory
-        resources: {}
 status: {}
 ---
 apiVersion: v1
