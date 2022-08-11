@@ -20,6 +20,14 @@ spec:
       containers:
       - image: hbkw1772/goorm-project:29
         name: flaskdemo
+        volumeMounts:
+        - name: flask-db
+          mountPath: ~/goorm-jenkins/pybo.db
+      volumes:
+      - name : flask-db
+        hostPath:
+        - type: Directory
+          path: ~/goorm-jenkins/pybo.db
         resources: {}
 status: {}
 ---
