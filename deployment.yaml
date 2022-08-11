@@ -27,8 +27,8 @@ spec:
       volumes:
       - name: flaskdemo
         hostPath:
-          path: /goorm-jenkins/
-          type: Directory
+          path: /goorm-jenkins
+          type: DirectoryOrCreate
 
 status: {}
 ---
