@@ -22,12 +22,12 @@ spec:
         name: flaskdemo
         volumeMounts:
         - name: flask-db
-          mountPath: ~/goorm-jenkins/pybo.db
+          mountPath: /goorm-jenkins
       volumes:
       - name : flask-db
         hostPath:
         - type: Directory
-          path: ~/goorm-jenkins/pybo.db
+          path: /goorm-jenkins
         resources: {}
 status: {}
 ---
