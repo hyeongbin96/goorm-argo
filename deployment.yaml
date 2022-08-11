@@ -22,7 +22,7 @@ spec:
         name: flaskdemo
         volumeMounts:
         - name: flask-db
-          mountPath: /goorm-jenkins
+          mountPath: /web
         resources: {}
       volumes:
       - name: flask-db
