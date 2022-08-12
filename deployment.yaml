@@ -23,7 +23,7 @@ spec:
         resources: {}
         volumeMounts:
         - name: aws-sc-ebs-pvc-db
-          mountPath: /web
+          mountPath: /data
       volumes:
       - name: aws-sc-ebs-pvc-db
         persistentVolumeClaim:
