@@ -21,15 +21,7 @@ spec:
       - image: hbkw1772/goorm-project:48
         name: flaskdemo
         resources: {}
-        volumeMounts:
-        - name: flaskdemo
-          mountPath: /goorm-jenkins
-      volumes:
-      - name: flaskdemo
-        hostPath:
-          path: /goorm-jenkins
-          type: DirectoryOrCreate
-
+        
 status: {}
 ---
 apiVersion: v1
