@@ -21,13 +21,6 @@ spec:
       - image: hbkw1772/goorm-project:50
         name: flaskdemo
         resources: {}
-        volumeMounts:
-        - name: aws-sc-ebs-pvc-nginx
-          mountPath: /data
-      volumes:
-      - name: aws-sc-ebs-pvc-nginx
-        persistentVolumeClaim:
-          claimName: aws-sc-ebs-pvc
           
 status: {}
 ---
