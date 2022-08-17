@@ -18,7 +18,7 @@ spec:
         app: flaskdemo
     spec:
       containers:
-      - image: hbkw1772/goorm-project:63
+      - image: hbkw1772/goorm-project:64
         name: flaskdemo
         resources: {}
           
